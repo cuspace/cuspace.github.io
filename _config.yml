@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
  glsl, shader, 3d graphics, webgl, js, canvas, unity, mathmatics, paintings
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cuspace.github.io" # the base hostname & protocol for your site
-twitter_username: @seeyouspace
+twitter_username: seeyouspace
 github_username: cuspace 
 
 # Build settings
