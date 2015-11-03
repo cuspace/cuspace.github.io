@@ -19,15 +19,15 @@ categories: jekyll update
 
 * [Brackets][1]를 다운로드, 설치, 실행 합니다.
 * `파일 > 폴더열기` 를 클릭하고, 	 
-![folder_open](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/folder_open.jpg)
+![folder_open]({{site.url}}/assets/folder_open.jpg)
 * `New Folder`를 눌러 작업할 폴더 이름을 입력하고,  
-![new_folder](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/new_folder.jpg)
+![new_folder]({{site.url}}/assets/new_folder.jpg)
 * `Open`을 눌러 그 폴더를 엽니다.  
-![open](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/open.jpg)
+![open]({{site.url}}/assets/open.jpg)
 * 마우스 오른쪽 버튼을 눌러 `파일 만들기`를 클릭한 후,  
-![new_file](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/new_file.jpg)
+![new_file]({{site.url}}/assets/new_file.jpg)
 * `index.html`이라고 입력해서 파일을 만듭니다.  
-![index_html](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/index_html.jpg)
+![index_html]({{site.url}}/assets/index_html.jpg)
 
 ## index.html 기본 골격
 
@@ -59,9 +59,9 @@ categories: jekyll update
 ```
 
 * `실시간 미리보기` 를 클릭하면,  
-![live_preview](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/live_preview.jpg)
+![live_preview]({{site.url}}/assets/live_preview.jpg)
 * 웹브라우저가 실행되면서 미리 볼 수 있습니다.  
-![live_preview_web](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/live_preview_web.jpg)
+![live_preview_web]({{site.url}}/assets/live_preview_web.jpg)
 * 이 상태에서 웹브라우저를 닫지 않고, 다시 Brackets 로 돌아가 `TEST`를 `TEST EDIT`으로 바꾸면,
 
 ```html
@@ -76,7 +76,7 @@ categories: jekyll update
 ```
 
 * 수정과 동시에 그 내용이 웹브라우저에 반영되는 것을 볼 수 있습니다.  
-![live_preview_web_edit](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/live_preview_web_edit.jpg)
+![live_preview_web_edit]({{site.url}}/assets/live_preview_web_edit.jpg)
 * 참고로 실시간 미리보기는 브라우저를 닫거나, 번개 모양의 버튼을 다시 클릭하면 종료됩니다.
 
 ## 스마트폰 브라우저에서도 보려면
@@ -92,7 +92,7 @@ categories: jekyll update
 * 폰이 노트북과 같은 AP 에 접속되어 있는 지 확인.
 * 폰 웹브라우저 실행:
   * 주소창에 입력(x는 위에서 확인한 노트북(데스크탑)의 IP 주소) : `xxx.xxx.xxx.xxx:8000/index.html`
-![from_mobile_chrome](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/from_mobile_chrome.jpg)
+![from_mobile_chrome]({{site.url}}/assets/from_mobile_chrome.jpg)
 * 참고로 이렇게 실행시킨 http server 는 터미널 창에서 `control키(Ctrl키)+c` 를 두 번 누르면 종료됩니다.
 
 ## VR에 필요한 js 파일 다운로드 및 포함시키기
@@ -103,7 +103,7 @@ categories: jekyll update
   * https://github.com/mrdoob/three.js/tree/master/examples/js/effects 에서 `StereoEffect.js`
   * https://github.com/mrdoob/three.js/tree/master/examples/js/controls 에서 `OrbitControls.js`
 * `Brackets` 왼쪽 패널 js 폴더에 저장한 파일들이 보이는지 확인  
-![dn_result_check](https://raw.githubusercontent.com/cuspace/vrtoon/master/img/dn_result_check.jpg)
+![dn_result_check]({{site.url}}/assets/dn_result_check.jpg)
 * `index.html` 파일을 다음과 같이 수정합니다.
 
 ```html
