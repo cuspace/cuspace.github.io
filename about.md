@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-![minsoo](https://goo.gl/dAlNA4)
+![minsoo]({{site.url}}/assets/minsoo_sign.jpg)
