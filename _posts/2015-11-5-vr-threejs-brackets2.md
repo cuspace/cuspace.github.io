@@ -5,4 +5,18 @@ date:   2015-11-5 11:00:00
 categories: jekyll update
 ---
 
-## three.js 로 3차원 공간 구성
+## 기본 틀이 되는 구조 추가
+
+`vrpractice.js` 다음 내용을 추가 합니다.
+```js
+/*global window, THREE*/
+var container, camera, scene, renderer, effect, controls, clock;
+init();
+animate();
+function init() {
+
+}
+function animate() {
+	
+}
+```
