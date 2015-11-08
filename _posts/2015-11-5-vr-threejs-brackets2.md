@@ -8,7 +8,8 @@ categories: jekyll update
 ## 기본 틀이 되는 구조 추가
 
 `vrpractice.js` 다음 내용을 추가 합니다.
-```js
+
+```javascript
 /*global window, THREE*/
 var container, camera, scene, renderer, effect, controls, clock;
 init();
@@ -17,6 +18,6 @@ function init() {
 
 }
 function animate() {
-	
+
 }
 ```
