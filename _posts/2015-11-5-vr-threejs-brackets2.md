@@ -21,7 +21,7 @@ function animate() {
 `init()`은 처음에 한번만 호출되도록 하고,
 `animate()`는 animation 을 웹브라우저에 표현할 수 있도록 반복해서 호출되게 하고
 싶습니다.
-그래서 [requestAnimationFrame][1] 을 사용하도록 코드를 수정합니다.
+그러기 위해 [requestAnimationFrame][1] 을 사용하도록 코드를 수정합니다.
 
 ```javascript
 init();
