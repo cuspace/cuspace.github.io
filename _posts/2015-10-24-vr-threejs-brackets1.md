@@ -98,8 +98,12 @@ categories: jekyll update
 ## VR에 필요한 js 파일 다운로드 및 포함시키기
 
 * `Brackets`에서 마우스 오른쪽 버튼을 눌러 `폴더 만들기`를 클릭해서 `js` 폴더를 만듭니다.
-* [three.js github][3] 사이트의 다음 경로에서 각각의 파일을 다운로드 받아 방금 만든 `js`폴더를 선택해 저장합니다.
-  * https://github.com/mrdoob/three.js/tree/master/build 에서, `three.js` 파일을 마우스 오른쪽클릭해서 `다른 이름으로 링크 저장`
+* [three.js github][3] 사이트의 다음 경로에서 각각의 파일을 방금
+    만든 `js`폴더에 저장합니다. 다운로드 방법은 각각의 파일을 클릭한 뒤에
+    `RAW`버튼을 누른 뒤에, 소스코드만 보이는 상태에서 마우스 오른쪽 버튼을 눌러
+    다른 이름으로 저장합니다. (`RAW`버튼을 누르지 않고 저장하면 html 내용을
+    갖고 있는 github 사이트용 파일이 저장되므로 주의하세요)
+  * https://github.com/mrdoob/three.js/tree/master/build 에서, `three.js`
   * https://github.com/mrdoob/three.js/tree/master/examples/js/effects 에서 `StereoEffect.js`
   * https://github.com/mrdoob/three.js/tree/master/examples/js/controls 에서 `OrbitControls.js`
 * `Brackets` 왼쪽 패널 js 폴더에 저장한 파일들이 보이는지 확인  
