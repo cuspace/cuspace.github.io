@@ -5,7 +5,7 @@ date:   2015-11-5 11:00:00
 categories: jekyll update
 ---
 
-## 기본 틀이 되는 구조 추가
+## 기본 틀이 되는 구조
 
 `vrpractice.js` 의 기본 구조입니다.
 
@@ -33,4 +33,27 @@ function animate() {
 }
 ```
 
+## Container
+
+html tag 중 하나인 `<div></div>` 를 코드로 만들고 html body 에 추가 합니다.
+후에 WebGL을 그릴 html element 를 이 태그 밑에 추가할 것입니다.
+
+```javascript
+var container;
+init();
+animate();
+function init() {
+  container = document.createElement('div');
+  document.body.appendChild(container);
+}
+```
+
+이 상태에서 Brackets 의 번개모양 아이콘을 누르면([이전 글][3] 참고), 브라우저에 빈 화면이 뜰텐데요.
+[크롬 개발자도구][2] 를 열어서 (윈도우: `Ctrl+Shift+I`, 맥: `Cmd+Opt+I`), `Elements`를 누르면,
+다음과 같이 div 가 추가된 것을 볼 수 있습니다.
+
+![chrome_dev_div]({{site.url}}/assets/chrome_dev_div.jpg)
+
 [1]: https://msdn.microsoft.com/en-us/library/hh920765(v=vs.85).aspx
+[2]: https://developer.chrome.com/devtools
+[3]: http://cuspace.github.io/jekyll/update/2015/10/24/vr-threejs-brackets1.html
