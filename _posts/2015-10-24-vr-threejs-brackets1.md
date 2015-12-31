@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VR 1: VR 제작환경(three.js 사용)"
+title:  "Three.js VR 1: 환경 구성"
 date:   2015-10-24 15:18:00
 categories: jekyll update
 ---

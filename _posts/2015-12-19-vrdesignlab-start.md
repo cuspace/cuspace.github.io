@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VR Design Lab (Unity) 시작 부분"
+title:  "Unity VR 1: VR Design Lab 시작 부분"
 date:   2015-12-19 02:12:00
 categories: jekyll update
 ---

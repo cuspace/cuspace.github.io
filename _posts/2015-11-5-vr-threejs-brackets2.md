@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VR 2: three.js 기본구조"
+title:  "Three.js VR 2: 기본 틀"
 date:   2015-11-5 11:00:00
 categories: jekyll update
 ---
