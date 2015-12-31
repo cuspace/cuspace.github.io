@@ -5,7 +5,7 @@ date:   2015-10-24 15:18:00
 categories: jekyll update
 ---
 웹브라우저에서 동작하는 VR 을 만들어 봅시다.  
-이 글에서는 다음과 같은 것들을 사용할거예요.
+필요한 요소:
 
 * [three.js][2] 및 함께 제공되는 VR 관련 파일들
 * [Brackets][1]
@@ -141,12 +141,6 @@ categories: jekyll update
 	</body>
 </html>
 ```
-
-## 다음 글에선
-
-Three.js helper 를 이용해서 3D 공간을 눈으로 볼 수 있도록 해보고,  
-Cube 나 Sphere 등을 3D 공간에 놓은 후,  
-스마트폰의 웹브라우저에서 어떻게 보이는 지 확인해 보도록 하겠습니다.
 
 ### 참고
 

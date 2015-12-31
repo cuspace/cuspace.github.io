@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "VR 2: three.js helper를 이용한 공간 확인"
+title:  "VR 2: three.js 기본구조"
 date:   2015-11-5 11:00:00
 categories: jekyll update
 ---
