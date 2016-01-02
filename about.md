@@ -6,7 +6,7 @@ permalink: /about/
 
 Minsoo (Kenneth) Park
 
-[Sketches & Oil Painting](https://goo.gl/photos/MSSJDfkRJFCWnksdA)
+2013~ : [Sketches & Oil Painting](https://goo.gl/photos/MSSJDfkRJFCWnksdA)
 
 2015~ : [MINT member](http://www.motivationalinterviewing.org/profile/minsoopark)
 
