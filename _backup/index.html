@@ -1,0 +1,81 @@
+---
+layout: simple
+---
+<script>
+(function() {
+    var c = document.createElement('canvas').getContext('2d');
+    //var c = document.getElementById('c').getContext('2d');
+    var data = [];
+    init();
+    function init() {
+        c.canvas.width = window.innerWidth;
+        c.canvas.height = window.innerHeight/2;
+        document.body.appendChild(c.canvas);
+        window.addEventListener('resize', resizeCanvas, false);
+        resizeCanvas();
+    }
+    function resizeCanvas() {
+        c.canvas.width = window.innerWidth;
+        c.canvas.height = window.innerHeight/2;
+        //c.canvas.style.background = 'yellow';
+        redraw();
+    }
+    function redraw() {
+        data = [];
+        genData(data, 255);
+        data.forEach(dataVis);
+        data.forEach(addS);
+        data.sort(function(a, b) {
+          return a.s - b.s;
+        });
+        drawSorted10Data(data);
+        draw9Line(data);
+    }
+
+    function drawCircle(ctx, x, y, r, c) {
+      ctx.beginPath();
+      ctx.arc(x, y, r, 0, Math.PI*2);
+      ctx.fillStyle = 'rgba('+c+','+c+','+c+','+'0.5'+')';
+      ctx.fill();
+    }
+    function randInt(min, max) {
+      return Math.floor((max - min)*Math.random()) + min;
+    }
+    function genData(d, num) {
+      for(var i = 0; i < num; i++) {
+        d.push({
+          x: randInt(0, c.canvas.width),
+          y: randInt(0, c.canvas.height),
+          r: randInt(3, 20),
+          v: randInt(0, 255)
+        });
+      }
+    }
+    function dataVis(item, index, array) {
+      drawCircle(c, item.x, item.y, item.r, item.v);
+    }
+    function addS(item, index, array) {
+      item.s = Math.abs(128 - item.v);
+    }
+    function drawRedCircle(ctx, x, y, r, index) {
+      ctx.beginPath();
+      ctx.arc(x, y, r, 0, Math.PI*2);
+      ctx.fillStyle = 'rgba('+(255-index*20)+', 0, 0, 0.5)';
+      ctx.fill();
+    }
+    function drawSorted10Data(sd) {
+      for(var i = 0; i < 10; i++) {
+        drawRedCircle(c, sd[i].x, sd[i].y, sd[i].r, i);
+      }
+    }
+    function draw9Line(sd) {
+        c.beginPath();
+        for(var i = 1; i < 10; i++) {
+            c.moveTo(sd[0].x, sd[0].y);
+            c.lineTo(sd[i].x, sd[i].y);
+            c.strokeStyle = 'rgba(0, 0, '+(255-i*20)+', 0.5)';
+        }
+        c.stroke();
+    }
+})();
+</script>
