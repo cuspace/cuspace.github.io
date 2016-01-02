@@ -6,9 +6,9 @@ permalink: /about/
 
 Minsoo (Kenneth) Park
 
-2013~ : [Sketches & Oil Painting](https://goo.gl/photos/MSSJDfkRJFCWnksdA)
-
 2015~ : [MINT member](http://www.motivationalinterviewing.org/profile/minsoopark)
+
+2013~ : [Sketches & Oil Painting](https://goo.gl/photos/MSSJDfkRJFCWnksdA)
 
 2013 : [Satir Family Therapist](http://satir.withch.kr/sub2_1.php)
 
