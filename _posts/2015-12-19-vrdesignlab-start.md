@@ -48,6 +48,10 @@ categories: jekyll update
 	* 메인 씬인지 아닌지
 	* 산
 	* 숲
+* 마지막에 있는 `Destroy(gameObject);` 는??
+	* [구글링 결과](http://answers.unity3d.com/questions/39872/destroy-the-current-gameobject.html)를 읽어보면,
+	> Destroy(gameObject) is the correct way to the GameObject your script is attached to.
+	* 즉 스크립트와 연결되어 있는 GameObject instance 가 `gameObject` 이고, `app` 을 생성하고난 후에는 아무일도 하지 않으므로 제거하는 것.
 
 
 [1]: https://www.reddit.com/r/oculus/comments/3sqckv/vr_design_lab_an_open_sourced_unity_project/
