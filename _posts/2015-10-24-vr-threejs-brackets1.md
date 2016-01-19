@@ -7,17 +7,17 @@ categories: jekyll update
 웹브라우저에서 동작하는 VR 을 만들어 봅시다.  
 필요한 요소:
 
-* [three.js][2] 및 함께 제공되는 VR 관련 파일들
-* [Brackets][1]
+* Three.js[^Three.js] 및 함께 제공되는 VR 관련 파일들
+* Brackets[^Brackets]
 * 최신 PC 웹브라우저
 * 스마트폰 최신 모바일 웹브라우저
-* [python][5]
-* [구글카드보드][4]
+* Python[^Python Download]
+* Google Cardboard[^Google Cardboard]
 
 
 ## Brackets 설치, 작업폴더 및 파일 생성
 
-* [Brackets][1]를 다운로드, 설치, 실행 합니다.
+* Brackets[^Brackets]를 다운로드, 설치, 실행 합니다.
 * `파일 > 폴더열기` 를 클릭하고, 	 
 ![folder_open]({{site.url}}/assets/folder_open.jpg)
 * `New Folder`를 눌러 작업할 폴더 이름을 입력하고,  
@@ -98,7 +98,7 @@ categories: jekyll update
 ## VR에 필요한 js 파일 다운로드 및 포함시키기
 
 * `Brackets`에서 마우스 오른쪽 버튼을 눌러 `폴더 만들기`를 클릭해서 `js` 폴더를 만듭니다.
-* [three.js github][3] 사이트의 다음 경로에서 각각의 파일을 방금
+* Three.js github[^Three.js github] 사이트의 다음 경로에서 각각의 파일을 방금
     만든 `js`폴더에 저장합니다. 다운로드 방법은 각각의 파일을 클릭한 뒤에
     `RAW`버튼을 누른 뒤에, 소스코드만 보이는 상태에서 마우스 오른쪽 버튼을 눌러
     다른 이름으로 저장합니다. (`RAW`버튼을 누르지 않고 저장하면 html 내용을
@@ -144,14 +144,8 @@ categories: jekyll update
 
 ### 참고
 
-* Brackets : http://brackets.io/
-* Three.js : http://threejs.org
-* Three.js github : https://github.com/mrdoob/three.js/
-* Google Cardboard : https://www.google.com/get/cardboard/
-* Python Download : https://www.python.org/downloads/
-
-[1]: http://brackets.io/
-[2]: http://threejs.org
-[3]: https://github.com/mrdoob/three.js/
-[4]: https://www.google.com/get/cardboard/
-[5]: https://www.python.org/downloads/
+[^Brackets]: http://brackets.io/
+[^Three.js]: http://threejs.org
+[^Three.js github]: https://github.com/mrdoob/three.js/
+[^Google Cardboard]: https://www.google.com/get/cardboard/
+[^Python Download]: https://www.python.org/downloads/

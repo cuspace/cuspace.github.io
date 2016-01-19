@@ -5,6 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://cuspace.github.io" # the base hostname & protocol for your site
 
+excerpt_separator: ""
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -24,4 +26,4 @@ footer-links:
 # Build settings
 markdown: redcarpet
 redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks", "footnotes"]
