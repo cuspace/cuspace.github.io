@@ -27,3 +27,5 @@ footer-links:
 markdown: redcarpet
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks", "footnotes"]
+
+disqus: cuspacegithubio
